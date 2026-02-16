@@ -2,3 +2,5 @@
 spring:
   application:
     name: shoes-shop
+  liquibase:
+    change-log: classpath:/db/changelog/liquibase-changeLog.xml
